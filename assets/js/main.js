@@ -28,16 +28,14 @@ const teamUsernames = [
   "muthukumarimoorthi",
 ];
 
-const username = "mushkir";
-const token = "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";
+const token = "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";
 
 teamUsernames.forEach((element) => {
   const apiUrl = `https://api.github.com/users/${element}`;
   axios
     .get(apiUrl, {
-      auth: {
-        username: username,
-        password: token,
+      headers: {
+        Authorization: `Bearer ${token}`
       },
     })
     .then((response) => {

@@ -6,11 +6,11 @@
 
 ### Storyline
 
-// Todo: Storyline
-// Todo: 1. Need to get team GitHub username
-// Todo: 2. Integrate GitHub API
-// Todo: 3. Need to add username with `https://api.github.com/users/username`
-// Todo: 4. Display the data from API to UI
+// Storyline
+// 1. Need to get team GitHub username
+// 2. Integrate GitHub API
+// 3. Need to add username with `https://api.github.com/users/username`
+// 4. Display the data from API to UI
 
 
 ### Live link
